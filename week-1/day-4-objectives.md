@@ -65,3 +65,31 @@ Agenda Today
 8. Break
 9. Conditionals
 10. Recap and Q&A
+
+
+What did you learn today?
+
+1. conditions 
+   1. if / else
+   2. == equals
+   3. && and
+   4. ||
+   5. String.equals()
+2. methods
+   1. modularization
+   2. void - no return
+   3. double methodName() - double return data type
+   4. static
+3. sout + tab shortcut
+4. main + tab shortcut
+5. using the Scanner class
+6. Scanner.nextLine() 
+7. importing java scanner
+8. import all class in the util
+   1. import java.util.*
+9. D.R.Y. - don't repeat yourself
+10. printf - to format int %.d (decimal)
+   1. %.2f - .2 is number of decimals
+11. CRLF with println
+12. pom.xml
+13. .idea
