@@ -93,3 +93,4 @@ What did you learn today?
 11. CRLF with println
 12. pom.xml
 13. .idea
+14. Any thing you succeed with is success, if you learned something, you've succeeded 
