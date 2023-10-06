@@ -41,3 +41,14 @@ Todays Agenda
 
 1. We do of the sandwich shop
 2. Workshop
+
+
+Retrospective of the week
+
+1. Pacing good
+2. pacing a little quick
+3. good environment
+4. finally understanding git
+5. could spend more time on git- Chris
+6. more time on methods- Chris
+7. reviewing what we cover at the end and beginning
