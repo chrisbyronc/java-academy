@@ -44,3 +44,25 @@ Agenda Today
 7. Break
 8. Classes, getters, and setters
 9. Recap and Q&A
+
+
+What did you learn today?
+
+1. StringBuilder
+   1. helps save memory
+   2. .append()
+   3. .toString() converts StringBuilder to String type
+2. classes - package/organize/associate/silo
+   1. constructor method
+      1. help give starting values to properties in the class
+   2. getter methods
+   3. setter methods
+   4. encapsulation
+      1. public
+         1. can be access by anything, accessible outside the class
+      2. private
+         1. only local to the class, not available outside the class
+   5. fields / properties of a class
+   6. instantiating a class provides an object
+      1. use the 'new' keyword to help instantiate an object based off of a class
+3. OOP - Object Oriented Programming
