@@ -8,11 +8,13 @@ public class ClassDemo {
 
         Person aleks = new Person(15.5, "Aleks", 10000);
 
-        System.out.println(aleks.getName());
+        chris.work(7);
 
-        aleks.setName("Aleksandr");
+        display(chris);
 
-        System.out.println(aleks.getName());
+        chris.sleep(5);
+
+        display(chris);
 
 
        /*
@@ -25,8 +27,11 @@ public class ClassDemo {
 
 
         */
+    }
 
+    public static void display(Person human) {
 
+        System.out.println("The " + human.getName() + "'s energy level is " + human.getEnergy());
 
     }
 
