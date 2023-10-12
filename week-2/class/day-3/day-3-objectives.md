@@ -49,3 +49,26 @@ Agenda Today
 7. Break
 8. for each loop
 9. recap and Q&A
+
+
+What did you learn today?
+
+1. Infinite loops == DANGER
+2. Loops
+   1. do while
+      1. runs once, then until the condition is false, will run
+   2. while
+      1. until the condition is false, will run
+      2. must end, or falsify condition
+   3. for loop
+      1. for iterating values
+      2. (initializing variable value, condition to be met, updating the variable)
+3. Arrays - Lists of values
+   1. Index starts with 0
+   2. Values separated by a comma (,)
+   3. Arrays are defined with type ex. String[]
+   4. int[] nums = new int[5] - define 5 empty int's
+   5. Arrays.sort()
+   6. Arrays.clone()
+   7. for each
+      1. for (Type variable_representing_array_value : array)
