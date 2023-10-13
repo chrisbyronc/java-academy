@@ -84,14 +84,13 @@ public class DiceRollApplication {
         //For workshop today, Oct 13, 2023
 
 //        while(true) {
-//            System.out.print("Read vehicle");
+//            System.out.println("Show available books: A");
+//            System.out.println("Show available books: B");
 //            scanner.nextLine();
 //
 //            System.out.println("Would this run?");
+
 //        }
-
-
-
 
 
 

@@ -35,3 +35,16 @@ Agenda Today
 2. We do of dice roll
 3. Hot tip for the workshop
 4. Workshop
+
+
+This weeks retrospective
+
+1. working on getters and setters
+2. Great refresher this week
+3. More methods
+4. constructor methods
+5. More OOP (classes) time needed
+6. Trying to get through one difficult kata - getting 300 tests done in 16 seconds
+   1. https://www.codewars.com/kata/5a331ea7ee1aae8f24000175
+7. Breaking down exercises have been very helpful
+8. More intellij shortcuts
