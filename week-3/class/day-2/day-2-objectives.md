@@ -27,3 +27,17 @@ Agenda Today
 8. Break
 9. Dates
 10. Recap and Q&A
+
+
+What did you learn today?
+
+1. Buffered is more efficient
+2. FileReader
+3. FileWriter
+4. BufferedReader
+5. BufferedWriter
+6. csv (comma separated values)
+7. Scanner again
+8. classes we import
+9. More practice with methods and constructor methods
+

@@ -1,0 +1,10 @@
+
+2023-10-18 13:51:37 launch
+2023-10-18 13:51:45 search How to feed ducks?
+2023-10-18 13:51:52 search How to eat an apple core?
+2023-10-18 13:52:04 search How to make my computer print me money?
+2023-10-18 13:52:11 search How to download a car?
+2023-10-18 13:52:13 exit
+2023-10-18 13:52:55 launch
+2023-10-18 13:53:02 search : Help, I've been pirated
+2023-10-18 13:53:03 exit
