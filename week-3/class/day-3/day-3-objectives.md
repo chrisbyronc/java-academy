@@ -32,3 +32,11 @@ Agenda Today
 9. Recap and Q&A
 
 
+What did you learn today?
+
+1. Remotely add text to a file with BufferedWriter or FileWriter
+2. ArrayList - Collection of anything data type
+   1. dynamically updatable, mutable array, expandable size
+3. Date formatting
+4. Dates
+   1. LocalTime
