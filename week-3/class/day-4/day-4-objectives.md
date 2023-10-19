@@ -40,3 +40,14 @@ Today's Agenda
 9. Agile
 10. Workshop and Capstone 1 discussion
 11. Recap and Q&A
+
+
+What did you learn today?
+
+1. HashMaps<keytype, valuetype>
+   1. stores key value pairs
+   2. .put(key, value) - to add and update to the hashmap
+   3. .get(key) returns value
+   4. .remove(key) - removes value
+   5. .keySet() - to retrieve array of keys
+   6. .values() - to retrieve array of values
