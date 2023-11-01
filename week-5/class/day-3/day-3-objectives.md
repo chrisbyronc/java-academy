@@ -33,3 +33,20 @@ Agenda Today
 7. Break
 8. Static
 9. Recap and Q&A
+
+
+What did you learn today?
+
+1. Unit Testing
+   1. Using JUnit5 framework
+      1. The dependency is added to the pom.xml
+   2. Edge cases
+   3. assertions
+      1. assertEquals
+      2. assertTrue
+      3. assertFalse
+2. Annotations - @Something
+3. Static variables/methods
+   1. Can run without being in an instant
+4. Instance variables and methods
+   1. must be instantiated to use
