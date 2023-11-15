@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class Pokemon extends Card {
+public class Pokemon extends Card implements PlayableInterface {
    private String pokemonName, elementType, energyType;
 
    private int energyCost, attackPower;
@@ -65,5 +65,14 @@ public class Pokemon extends Card {
     @Override
     public double getPrice() {
         return 0;
+    }
+
+    public void play() {
+        System.out.println("Playing Pokemon");
+    }
+
+    @Override
+    public double evaluatePrice() {
+        return 10.0;
     }
 }
