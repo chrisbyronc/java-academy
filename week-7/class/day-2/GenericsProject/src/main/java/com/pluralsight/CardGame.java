@@ -1,7 +1,6 @@
 package com.pluralsight;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+import java.util.*;
 
 public class CardGame {
 
@@ -29,5 +28,27 @@ public class CardGame {
 
 
         PlayingHand<Card> warPlayersHandOne = new PlayingHand<>(warCards);
+    }
+
+    private static List<PlayingCard> createFullDeck() {
+        List<PlayingCard> deck = new ArrayList<>();
+        String[] suits = {"hearts", "diamonds", "clubs", "spades"};
+        String material = "cardstock";
+        String color = "white";
+        boolean holographic = false;
+        boolean reverseHolographic = false;
+        boolean artCard = false;
+        String brand = "bicycle";
+        double cardWidth = 4.5;
+        double cardHeight = 4.6;
+
+        // Loop through suits and ranks to create the cards
+        for (String suit : suits) {
+            for (int rank = 1; rank <= 13; rank++) {
+                deck.add(new PlayingCard(rank, cardWidth, cardHeight, material, color, holographic, reverseHolographic, artCard, suit, brand));
+            }
+        }
+
+        return deck;
     }
 }

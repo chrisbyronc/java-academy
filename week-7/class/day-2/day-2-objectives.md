@@ -35,3 +35,20 @@ Today's Agenda
 12. Collections Exercise
 13. Codewars
 14. Recap and Q&A
+
+
+What did you learn today?
+
+1. void is a return type
+   1. no response
+2. generics
+   1. setting <Generic> beside class, provides Generic for all of class
+      1. constructor can utilize the generic type
+   2. public <T> int exMethod(T data) {} - generic in parameter list, define before return type
+3. Declarative vs Imperative programming
+   1. Declarative - describes what we want
+   2. Imperative - how, explicit
+4. Lambda expressions are Anonymous functions
+   1. parameter -> expression
+   2. () required when more than one parameter
+   3. passed as parameter
