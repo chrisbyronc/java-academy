@@ -12,7 +12,8 @@ Each member must share their screen at the time of their instructions
 2. Initialize the repository on your local computer
 3. `touch` a `MainClass.java` file
 4. Paste the following code into that file
-   5. ```
+   5. 
+   ```java
       public class MainClass {
          public static void main(String[] args) {
          
