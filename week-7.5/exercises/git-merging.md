@@ -30,3 +30,12 @@ Each member must share their screen at the time of their instructions
    3. Confirm you have switched branches by running `git status`
 4. Update the println to say "Hello Class!"
 5. Perform the usual add, commit, and push
+   1. When pushing a branch the first time, you will need to run the command `git push --set-upstream origin new_feature_v1` where 'new_feature_v1' is your branch name
+
+
+### Team member 4 / or Team member 1
+
+1. Open and display the GitHub repository
+2. Click the "Pull Request" tab
+3. Click "New Pull Request"
+4. 
