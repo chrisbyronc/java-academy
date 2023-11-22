@@ -4,6 +4,8 @@ In groups of 4, each member will play an important roll in the management of a g
 
 Each member must share their screen at the time of their instructions
 
+## Git branching the remote way - Pull Requests
+
 ### Team member 1
 
 1. Create an empty repository in GitHub.
@@ -95,3 +97,44 @@ Each member must share their screen at the time of their instructions
 1. In your local repository, in your main branch
 2. Update the recent system out with "6 + 6"
 3. Add, commit, push
+
+
+### Team member 3
+
+1. In your local repository, in your main branch
+2. Run `git pull origin new_feature_v2`, If this fails, run `git pull` and try again
+3. With the team observe the error/conflict
+
+
+This will be due to changes being diverted from one branch to another. This is bad practice.
+
+1. Run `git branch -D new_feature_v2`
+   1. This will delete the branch that was created. If this fails, run `git pull` and try again
+
+
+### Team member 4 or 1
+
+1. Confirm in the remote repository that when looking at the main branch, you see "6 + 6"
+   1. If you don't, call your teacher to your room
+
+
+## Git branching the manual way - without conflicts
+
+
+### Team member 4 or 1
+
+1. In your local repository, on your main branch, run `git pull`
+2. Then run `git branch new_feature_v3`
+3. and `git checkout new_feature_v3`
+4. Run `git status` to confirm you've switched branches
+5. Update `MainClass.java` to include a new println statement with a nice message
+6. Add, commit, push
+7. Run `git checkout main`
+8. Then `git pull origin new_feature_v3`
+9. Then `git push`
+
+
+### Team member 2
+
+1. Confirm in the remote repository that when looking at the main branch, you see the new message
+   1. If you don't, call your teacher to your room
