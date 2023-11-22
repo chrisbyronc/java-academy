@@ -12,7 +12,14 @@ Each member must share their screen at the time of their instructions
 2. Initialize the repository on your local computer
 3. `touch` a `MainClass.java` file
 4. Paste the following code into that file
-5. Finish the steps of adding, committing, git branch -M main, git remote add, and push as the instructions state in your empty repository in GitHub
+   5. ```
+      public class MainClass {
+         public static void main(String[] args) {
+         
+         }
+      }
+   ```
+6. Finish the steps of adding, committing, git branch -M main, git remote add, and push as the instructions state in your empty repository in GitHub
 
 
 ### Team member 2
