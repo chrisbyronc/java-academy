@@ -92,4 +92,6 @@ Each member must share their screen at the time of their instructions
 
 ### Team member 2
 
-1. 
+1. In your local repository, in your main branch
+2. Update the recent system out with "6 + 6"
+3. Add, commit, push
