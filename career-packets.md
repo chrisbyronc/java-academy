@@ -42,14 +42,14 @@
   * https://app.pluralsight.com/paths/skill/go
 
 
-## Testing
+## Quality Assurance
 
   * https://app.pluralsight.com/library/courses/software-testing-quality-assurance-big-picture/table-of-contents
   * https://app.pluralsight.com/library/courses/call-monitoring-measure-quality/table-of-contents
   * https://www.linkedin.com/advice/1/how-do-you-enhance-your-quality-assurance-work
 
 
-## Server
+## Server development
 
   * https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-getting_started
   * Learn about cron https://crontab.guru/
