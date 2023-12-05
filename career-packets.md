@@ -130,7 +130,11 @@
 
   * Highly recommend AWS
   * Feel free to focus on any however, GCP or Azure are both as useful, learn any and you can understand them all. They become different products and opinions, utilizing the same ideas.
-  * This is a great course https://app.pluralsight.com/paths/certificate/aws-certified-cloud-practitioner-clf-c01 , https://www.aws.training/certification
+  * These are great courses 
+    * https://app.pluralsight.com/paths/certificate/aws-certified-cloud-practitioner-clf-c01
+    * https://www.aws.training/certification
+    * https://pages.awscloud.com/cloudup-for-her-cloud-practitioner.html
+    * https://learn.acloud.guru/course/aws--certified-cloud-practitioner/dashboard
 
 
 ## Game design
