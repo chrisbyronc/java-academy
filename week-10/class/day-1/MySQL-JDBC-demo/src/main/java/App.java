@@ -6,27 +6,29 @@ public class App {
 
         String url = "jdbc:mysql://127.0.0.1:3306/northwind";
         String user = "root"; // Replace with your username
-        String password = "        ";
+        String password = args[0];
 
-        String query = "SELECT * FROM Products";
+        String query = "SELECT * FROM Products WHERE ProductID = ?";
         try {
             // Establishing connection
-            Connection conn = DriverManager.getConnection(url, user, password);
-            Statement stmt = conn.createStatement();
+            Connection connection = DriverManager.getConnection(url, user, password);
+            PreparedStatement statement = connection.prepareStatement(query);
+
+            statement.setInt(1, 1);
 
             // Executing query
-            ResultSet rs = stmt.executeQuery(query);
+            ResultSet results = statement.executeQuery();
 
             // Processing the result set
-            while (rs.next()) {
+            while (results.next()) {
                 // Replace with your column names and types
-                System.out.println(rs.getString(2));
+                System.out.println(results.getString(2));
             }
 
             // Closing resources
-            rs.close();
-            stmt.close();
-            conn.close();
+            results.close();
+            statement.close();
+            connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

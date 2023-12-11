@@ -35,3 +35,16 @@ Agenda Today
 13. PreparedStatements demo
 14. Exercise
 15. Recap and Q&A
+
+
+What did you learn today?
+
+1. Remember passwords, actually important
+2. JDBC - Java Database Connectivity
+3. JDBC with MySQL
+   1. PreparedStatements help prevent SQL injections
+   2. 1 indexed
+4. Dependencies
+5. Maven Archetypes
+6. Blobs
+7. API
