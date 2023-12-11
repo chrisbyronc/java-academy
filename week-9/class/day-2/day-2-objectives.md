@@ -48,3 +48,23 @@ Agenda Today
 10. Recap and Q&A
 
 
+What did you learn today?
+
+1. Subqueries or Nested Queries
+   1. queries ran within queries, methods provide response, queries provide response
+   2. helps answer specific question
+2. Aggregate functions
+   1. COUNT()
+   2. SUM()
+   3. AVG()
+   4. MAX()
+   5. MIN()
+   6. ROUND()
+3. CONCAT
+4. GROUP BY column_name
+   1. specifies what to group
+5. HAVING group condition
+   1. used with and after group by
+   2. Allows us to include the groups based on conditions
+6. AS - creates alias/labeling
+

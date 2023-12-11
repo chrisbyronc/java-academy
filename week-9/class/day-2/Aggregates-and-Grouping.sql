@@ -53,3 +53,6 @@ SELECT
     CONCAT("$", ROUND((UnitPrice * UnitsInStock), 2)) AS Inventory_Value_With_Currency
 FROM Products
 ORDER BY Inventory_Value DESC, ProductName;
+
+
+SELECT * FROM `Order Details`;
