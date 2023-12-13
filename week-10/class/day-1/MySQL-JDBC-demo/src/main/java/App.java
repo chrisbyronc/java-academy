@@ -8,13 +8,14 @@ public class App {
         String user = "root"; // Replace with your username
         String password = args[0];
 
-        String query = "SELECT * FROM Products WHERE ProductID = ?";
+        String query = "SELECT * FROM Products WHERE ProductName = ? OR ProductID = ?";
         try {
             // Establishing connection
             Connection connection = DriverManager.getConnection(url, user, password);
             PreparedStatement statement = connection.prepareStatement(query);
 
-            statement.setInt(1, 1);
+            statement.setString(1, "Tiger Blood");
+            statement.setInt(2, 100);
 
             // Executing query
             ResultSet results = statement.executeQuery();
