@@ -1,13 +1,13 @@
-package com.pluralsight.demo;
+package com.pluralsight;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class DemoSpringBootGenerationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(DemoSpringBootGenerationApplication.class, args);
 	}
 
 }
