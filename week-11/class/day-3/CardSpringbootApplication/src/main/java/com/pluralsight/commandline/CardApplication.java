@@ -16,6 +16,6 @@ public class CardApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        cardService.drawAllCards().forEach(card -> System.out.println("Card Suit: " + card.getSuit() + " Card Value: " + card.getValue() + " Card Name: " + card.getName()));
+//        cardService.drawAllCards().forEach(card -> System.out.println("Card Suit: " + card.getSuit() + " Card Value: " + card.getValue() + " Card Name: " + card.getName()));
     }
 }
