@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.commandline;
 
 import com.pluralsight.service.CardService;
 import org.springframework.beans.factory.annotation.Autowired;

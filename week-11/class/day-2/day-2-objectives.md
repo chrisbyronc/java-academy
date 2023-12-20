@@ -45,3 +45,22 @@ Agenda Today
 10. Self learn custom properties
 11. Exericse
 12. Recap and Q&A
+
+
+What did you learn today?
+
+1. properties
+   1. application.properties - file to be stored
+   2. key=value syntax
+   3. hide file in .gitignore
+2. injecting beans
+   1. uses context to inject beans
+3. commandLineRunner
+   1. Runs program outside of main
+4. different profiles require different data configs
+5. map beans to profiles with @Profile annotation
+6. Can name beans
+   1. @Bean("name")
+   2. @Qualifier
+7. Database config
+8. @Configuration("dev")
