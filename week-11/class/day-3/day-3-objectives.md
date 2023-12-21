@@ -40,3 +40,22 @@ Today's Agenda
 11. You build API
 12. Recap and Q&A
 
+What did you learn today?
+
+1. MVC Pattern
+   1. Model - Data object
+   2. View - How it's displayed
+   3. Controller - How/Where it's retrieved / Routes
+2. REST API - Uses CRUD
+   1. GET
+   2. POST
+   3. PUT
+   4. DELETE
+3. URL Syntax
+4. DNS - Resolved domain names
+5. @RequestMapping(path="/") - sets path/endpoint 
+6. @PathVariable
+7. @RequestParam
+8. Postman - API testing tool
+   1. User Agent
+9. Shouldn't put a body when sending a GET request
